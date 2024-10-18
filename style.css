@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul{
+    background-color: rgb(81, 218, 134);
+    padding: 5PX;
+}
+UL LI{
+    display: inline-block;
+    margin: 10PX;
+}
+    
+UL>LI>UL{
+    position: absolute;
+    display: none;margin-bottom: 10PX;
+  
+   
+}
+UL>LI>UL>LI{
+    display: block;
+}
+UL:hover LI{
+    border: 3PX solid white;
+    border-radius: 5PX;
+    padding: 10PX;
+}
+UL LI UL:hover LI{
+    border: 3PX solid white;
+    border-radius: 5PX;
+    padding: 10PX;
+}
+UL>LI:hover UL{
+    display: block;
+    background-color: pink;
+   
+}
+UL LI UL:hover LI{
+    background-color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 300px;
+    height: 300px;border-radius:50% ;
+    margin-left: 60%;
+}
+button{
+    background-color: blue;
+    border-radius: 5px;
+}
+div{
+    font-size:30px;
+}
+table{
+    border-collapse: collapse;
+    font-size: 30px;
+    margin-left: 30%;
+}
+caption{
+    color: rgb(207, 44, 112);border: 2px solid pink;
+    margin: 0;
+    padding: 0;
+}
+tr:nth-child(odd){
+    background-color: brown;
+    
+}
+tr:nth-child(even){
+    background-color: blue;
+}
